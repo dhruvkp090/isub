@@ -35,7 +35,7 @@ spec:
         # - GPU support (CUDA libraries etc)
         # - Python 3
         #image: tensorflow/tensorflow:2.0.0-gpu-py3
-        image: jakelever/ml_gpu:latest
+        image: dhruvkp/dissertation:v2
         # the container will run the secondjob.py script from your external filespace 
         command: 
           - "bash"
